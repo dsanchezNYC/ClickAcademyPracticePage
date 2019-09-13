@@ -41,5 +41,15 @@ public class PracticePage {
         return this;
     }
 
+    public PracticePage selectRadioButton(){
+        System.out.print("[INFO]: Select radio button.");
+        return this;
+    }
+
+    public PracticePage selectCountries(){
+        System.out.print("[INFO]: Select country.");
+        return this;
+    }
+
 
 }
