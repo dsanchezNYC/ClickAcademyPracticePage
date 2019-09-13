@@ -15,4 +15,12 @@ public class SmokeTests extends BaseTests {
         //$(pp.PracticePageHeader).should(Condition.exist);
         System.out.println("[INFO]: 'Navigate To Project Page' test ***PASSED***");
     }
+
+    @Test
+    public void test_02_NavigateToHomePage (){
+        System.out.println("[INFO]: 'Navigate To Home Page' test ***START***");
+        pp.navigateToHomePage();
+        //$(pp.PracticePageHeader).should(Condition.exist);
+        System.out.println("[INFO]: 'Navigate To Home Page' test ***PASSED***");
+    }
 }
