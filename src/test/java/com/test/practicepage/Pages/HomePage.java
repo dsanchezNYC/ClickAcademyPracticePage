@@ -11,10 +11,11 @@ public class HomePage {
 
     public String orgUrl = "http://www.qaclickacademy.com/";
 
-    //---Home Page
+    //---Home Page Locators
     @FindBy(xpath = "//a[contains(@href, 'practice.php')]")
     public SelenideElement practiceLink;
 
+    //---Methods
     public HomePage navigateToPracticePage(){
         System.out.println("[INFO]: Navigate to Practice Page.");
         open(orgUrl);

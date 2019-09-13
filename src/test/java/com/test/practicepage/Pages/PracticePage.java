@@ -33,6 +33,15 @@ public class PracticePage {
     @FindBy(xpath = "//select[@id='dropdown-class-example']")
     public SelenideElement DropdownExample;
 
+    @FindBy(xpath = "//input[@value='option1']")
+    public SelenideElement Option1;
+
+    @FindBy(xpath = "//input[@value='option2']")
+    public SelenideElement Option2;
+
+    @FindBy(xpath = "//input[@value='option3']")
+    public SelenideElement Option3;
+
     //---Methods
     public PracticePage navigateToHomePage(){
         System.out.println("[INFO]: Navigate to Home Page.");
