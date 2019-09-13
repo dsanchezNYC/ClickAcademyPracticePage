@@ -1,35 +1,30 @@
-package com.silverline.MavenProject.BaseTests;
+package com.test.practicepage.BaseTests;
 
+import com.test.practicepage.Pages.HomePage;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import com.codeborne.selenide.WebDriverRunner;
-import com.silverline.MavenProject.Pages.LoginPage;
-import com.silverline.MavenProject.Helpers.BrowsersHelper;
+import com.test.practicepage.Helpers.BrowsersHelper;
 
 import static com.codeborne.selenide.Selenide.page;
 import static com.codeborne.selenide.WebDriverRunner.setWebDriver;
 
 public class BaseTests {
 
-    public static LoginPage lp;
-
-    public static String Org;
+    public static HomePage hp;
 
     @BeforeAll
     public static void setup(){
-        //SalesforceSoap.mainTimber();
-        //setWebDriver(BrowsersHelper.getChromeLocalWebDriver());
-        setWebDriver(BrowsersHelper.getChromeRemoteWebDriver());
+        setWebDriver(BrowsersHelper.getChromeLocalWebDriver());
         initializePages();
     }
 
     public static void initializePages() {
-        lp = page (LoginPage.class);
+        hp = page (HomePage.class);
     }
 
     @AfterAll
     public static void end(){
         WebDriverRunner.getWebDriver().quit();
-        //SalesforceSoap.main();
     }
 }
