@@ -1,7 +1,10 @@
 package com.test.practicepage.Tests;
 
+import com.codeborne.selenide.Condition;
 import com.test.practicepage.BaseTests.BaseTests;
 import org.junit.jupiter.api.Test;
+
+import static com.codeborne.selenide.Selenide.$;
 
 public class SmokeTests extends BaseTests {
 
@@ -9,6 +12,7 @@ public class SmokeTests extends BaseTests {
     public void test_01_NavigateToProjectPage (){
         System.out.println("[INFO]: 'Navigate To Project Page' test ***START***");
         hp.navigateToPracticePage();
+        //$(pp.PracticePageHeader).should(Condition.exist);
         System.out.println("[INFO]: 'Navigate To Project Page' test ***PASSED***");
     }
 }
