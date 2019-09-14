@@ -36,7 +36,7 @@ public class SmokeTests extends BaseTests {
 
     @Test
     public void test_03_SelectRadioButton1(){
-        System.out.println("[INFO]: 'Select Radio buttons' test ***START***");
+        System.out.println("[INFO]: 'Select Radio button 1' test ***START***");
         hp.navigateToPracticePage();
         pp.selectRadioButton(1);
         try{
@@ -44,12 +44,12 @@ public class SmokeTests extends BaseTests {
         }
         catch(Exception e){
         }
-        System.out.println("[INFO]: 'Select Radio buttons' test ***PASSED***");
+        System.out.println("[INFO]: 'Select Radio button 1' test ***PASSED***");
     }
 
     @Test
     public void test_04_SelectRadioButton2(){
-        System.out.println("[INFO]: 'Select Radio buttons' test ***START***");
+        System.out.println("[INFO]: 'Select Radio button 2' test ***START***");
         hp.navigateToPracticePage();
         pp.selectRadioButton(2);
         try{
@@ -57,12 +57,12 @@ public class SmokeTests extends BaseTests {
         }
         catch(Exception e){
         }
-        System.out.println("[INFO]: 'Select Radio buttons' test ***PASSED***");
+        System.out.println("[INFO]: 'Select Radio button 2' test ***PASSED***");
     }
 
     @Test
     public void test_05_SelectRadioButton3(){
-        System.out.println("[INFO]: 'Select Radio buttons' test ***START***");
+        System.out.println("[INFO]: 'Select Radio button 3' test ***START***");
         hp.navigateToPracticePage();
         pp.selectRadioButton(3);
         try{
@@ -70,6 +70,46 @@ public class SmokeTests extends BaseTests {
         }
         catch(Exception e){
         }
-        System.out.println("[INFO]: 'Select Radio buttons' test ***PASSED***");
+        System.out.println("[INFO]: 'Select Radio button 3' test ***PASSED***");
     }
+
+    @Test
+    public void test_06_SelectCheckboxOption1(){
+        System.out.println("[INFO]: 'Select Checkbox option 1' test ***START***");
+        hp.navigateToPracticePage();
+        pp.selectCheckboxOption(1);
+        try{
+            $(pp.CheckboxOption1).shouldBe(Condition.focused);
+        }
+        catch(Exception e){
+        }
+        System.out.println("[INFO]: 'Select Checkbox option 1' test ***PASSED***");
+    }
+
+    @Test
+    public void test_07_SelectCheckboxOption2(){
+        System.out.println("[INFO]: 'Select Checkbox option 2' test ***START***");
+        hp.navigateToPracticePage();
+        pp.selectCheckboxOption(2);
+        try{
+            $(pp.CheckboxOption2).shouldBe(Condition.focused);
+        }
+        catch(Exception e){
+        }
+        System.out.println("[INFO]: 'Select Checkbox option 2' test ***PASSED***");
+    }
+
+    @Test
+    public void test_08_SelectCheckboxOption1(){
+        System.out.println("[INFO]: 'Select Checkbox option 3' test ***START***");
+        hp.navigateToPracticePage();
+        pp.selectCheckboxOption(3);
+        try{
+            $(pp.CheckboxOption3).shouldBe(Condition.focused);
+        }
+        catch(Exception e){
+        }
+        System.out.println("[INFO]: 'Select Checkbox option 3' test ***PASSED***");
+    }
+
 }
