@@ -47,4 +47,32 @@ public class SmokeTests extends BaseTests {
         }
         System.out.println("[INFO]: 'Select Radio buttons' test ***PASSED***");
     }
+
+    @Test
+    public void test_04_SelectRadioButton2(){
+        System.out.println("[INFO]: 'Select Radio buttons' test ***START***");
+        hp.navigateToPracticePage();
+        pp.selectRadioButton(2);
+        sleep(1000);
+        try{
+            $(pp.RadioButton2).shouldBe(Condition.focused);
+        }
+        catch(Exception e){
+        }
+        System.out.println("[INFO]: 'Select Radio buttons' test ***PASSED***");
+    }
+
+    @Test
+    public void test_05_SelectRadioButton3(){
+        System.out.println("[INFO]: 'Select Radio buttons' test ***START***");
+        hp.navigateToPracticePage();
+        pp.selectRadioButton(3);
+        sleep(1000);
+        try{
+            $(pp.RadioButton3).shouldBe(Condition.focused);
+        }
+        catch(Exception e){
+        }
+        System.out.println("[INFO]: 'Select Radio buttons' test ***PASSED***");
+    }
 }
