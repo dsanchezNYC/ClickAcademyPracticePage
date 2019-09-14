@@ -39,7 +39,6 @@ public class SmokeTests extends BaseTests {
         System.out.println("[INFO]: 'Select Radio buttons' test ***START***");
         hp.navigateToPracticePage();
         pp.selectRadioButton(1);
-        sleep(1000);
         try{
             $(pp.RadioButton1).shouldBe(Condition.focused);
         }
@@ -53,7 +52,6 @@ public class SmokeTests extends BaseTests {
         System.out.println("[INFO]: 'Select Radio buttons' test ***START***");
         hp.navigateToPracticePage();
         pp.selectRadioButton(2);
-        sleep(1000);
         try{
             $(pp.RadioButton2).shouldBe(Condition.focused);
         }
@@ -67,7 +65,6 @@ public class SmokeTests extends BaseTests {
         System.out.println("[INFO]: 'Select Radio buttons' test ***START***");
         hp.navigateToPracticePage();
         pp.selectRadioButton(3);
-        sleep(1000);
         try{
             $(pp.RadioButton3).shouldBe(Condition.focused);
         }
