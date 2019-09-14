@@ -18,6 +18,7 @@ public class PracticePage {
     @FindBy(xpath = "//img[@class='logoClass']")
     public SelenideElement Logo;
 
+    //--Radios
     @FindBy(xpath = "//input[@value='radio1']")
     public SelenideElement RadioButton1;
 
@@ -27,20 +28,41 @@ public class PracticePage {
     @FindBy(xpath = "//input[@value='radio3']")
     public SelenideElement RadioButton3;
 
+    //--Select Countries
     @FindBy(xpath = "//input[@id='autocomplete']")
     public SelenideElement SelectCountries;
 
+    //--Dropdown
     @FindBy(xpath = "//select[@id='dropdown-class-example']")
     public SelenideElement DropdownExample;
 
+    //--Checkbox Options
     @FindBy(xpath = "//input[@value='option1']")
-    public SelenideElement Option1;
+    public SelenideElement CheckboxOption1;
 
     @FindBy(xpath = "//input[@value='option2']")
-    public SelenideElement Option2;
+    public SelenideElement CheckboxOption2;
 
     @FindBy(xpath = "//input[@value='option3']")
-    public SelenideElement Option3;
+    public SelenideElement CheckboxOption3;
+
+    //--Switch Window
+    @FindBy(xpath = "//button[@id='openwindow']")
+    public SelenideElement OpenWindowButton;
+
+    //--Open Tab
+    @FindBy(xpath = "//a[@id='opentab']")
+    public SelenideElement OpenTabButton;
+
+    //--Enter Your Name
+    @FindBy(xpath = "//input[@id='name']")
+    public SelenideElement OpenTabButton;
+
+    @FindBy(xpath = "//input[@id='alertbtn']")
+    public SelenideElement AlertButton;
+
+    @FindBy(xpath = "//input[@id='confirmbtn']")
+    public SelenideElement ConfirmButton;
 
     //---Methods
     public PracticePage navigateToHomePage(){

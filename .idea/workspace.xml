@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ae08a40-db7a-442c-9aeb-167818a3709d" name="Default Changelist" comment="Default Changelist">
+    <list default="true" id="1ae08a40-db7a-442c-9aeb-167818a3709d" name="Default Changelist" comment="Checkbox locators">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/practicepage/BaseTests/BaseTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/test/practicepage/BaseTests/BaseTests.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/practicepage/Pages/HomePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/test/practicepage/Pages/HomePage.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/practicepage/Pages/PracticePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/test/practicepage/Pages/PracticePage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -104,8 +102,8 @@
       <file leaf-file-name="SmokeTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/practicepage/Tests/SmokeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+            <state relative-caret-position="360">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,8 +114,8 @@
       <file leaf-file-name="PracticePage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/practicepage/Pages/PracticePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+            <state relative-caret-position="192">
+              <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,10 +193,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="331" />
+    <option name="x" value="776" />
     <option name="y" value="-1057" />
-    <option name="width" value="1314" />
-    <option name="height" value="877" />
+    <option name="width" value="1294" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -599,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568346368910</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Checkbox locators">
+      <created>1568405532423</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568405532423</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -608,9 +613,6 @@
     </history-entry>
     <history-entry file="SmokeTests - 2019.09.12 at 23h 31m 06s.xml">
       <configuration name="SmokeTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SmokeTests_test_01_NavigateToProjectPage_(1) - 2019.09.12 at 21h 52m 59s.xml">
-      <configuration name="SmokeTests.test_01_NavigateToProjectPage (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SmokeTests_test_01_NavigateToProjectPage_(1) - 2019.09.12 at 21h 53m 28s.xml">
       <configuration name="SmokeTests.test_01_NavigateToProjectPage (1)" configurationId="JUnit" />
@@ -633,25 +635,28 @@
     <history-entry file="SmokeTests_test_02_NavigateToHomePage - 2019.09.12 at 23h 34m 58s.xml">
       <configuration name="SmokeTests.test_02_NavigateToHomePage" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SmokeTests_test_02_NavigateToHomePage - 2019.09.14 at 17h 51m 30s.xml">
+      <configuration name="SmokeTests.test_02_NavigateToHomePage" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="331" y="-1057" width="1314" height="877" extended-state="0" />
+    <frame x="776" y="-1057" width="1294" height="1020" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27891892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2177673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.221246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -675,11 +680,12 @@
     <MESSAGE value="Add test/method to navigate back to Home page" />
     <MESSAGE value="Adding Locators" />
     <MESSAGE value="Initial methods for Radio/Countries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial methods for Radio/Countries" />
+    <MESSAGE value="Checkbox locators" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkbox locators" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -828,8 +834,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/practicepage/Tests/SmokeTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -838,8 +844,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/practicepage/Pages/PracticePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        <state relative-caret-position="192">
+          <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
