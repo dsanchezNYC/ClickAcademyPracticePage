@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
+import static com.test.practicepage.BaseTests.BaseTests.pp;
 
 public class PracticePage {
 
@@ -56,7 +57,7 @@ public class PracticePage {
 
     //--Enter Your Name
     @FindBy(xpath = "//input[@id='name']")
-    public SelenideElement OpenTabButton;
+    public SelenideElement EnterYourNameBox;
 
     @FindBy(xpath = "//input[@id='alertbtn']")
     public SelenideElement AlertButton;
@@ -64,23 +65,71 @@ public class PracticePage {
     @FindBy(xpath = "//input[@id='confirmbtn']")
     public SelenideElement ConfirmButton;
 
+    //--Web Table Example
+    @FindBy(xpath = "//*[@id=\"product\"]/tbody/tr[1]/th[1]")
+    public SelenideElement InstructorsHeader;
+
+    @FindBy(xpath = "//*[@id=\"product\"]/tbody/tr[1]/th[2]")
+    public SelenideElement CourseHeader;
+
+    @FindBy(xpath = "//*[@id=\"product\"]/tbody/tr[1]/th[3]")
+    public SelenideElement PriceHeader;
+
+    //TBD: Add additional table row locators
+
+    //--Element Displayed Example
+    @FindBy(xpath = "//input[@id='hide-textbox']")
+    public SelenideElement HideButton;
+
+    @FindBy(xpath = "//input[@id='show-textbox']")
+    public SelenideElement ShowButton;
+
+    @FindBy(xpath = "//input[@id='displayed-text']")
+    public SelenideElement DisplayedTextBox;
+
+    //--Mouse Hover Exmaple
+    @FindBy(xpath = "//button[@id='mousehover']")
+    public SelenideElement MouseHoverButton;
+
+    //TBD: Add iFrame locators
+
     //---Methods
+    public PracticePage navigateToProjectPage(){
+        open(orgUrl);
+        return this;
+    }
+
     public PracticePage navigateToHomePage(){
-        System.out.println("[INFO]: Navigate to Home Page.");
         open(orgUrl);
         $(Logo).waitUntil(enabled,30000).click();
         return this;
     }
 
-    public PracticePage selectRadioButton(){
-        System.out.print("[INFO]: Select radio button.");
+    public PracticePage selectRadioButton(int x){
+        if(x == 1){
+            pp.RadioButton1.click();
+        } else if(x == 2) {
+            pp.RadioButton2.click();
+        } else if(x == 3){
+            pp.RadioButton3.click();
+        }
         return this;
     }
 
-    public PracticePage selectCountries(){
-        System.out.print("[INFO]: Select country.");
+    public PracticePage selectCheckboxOption(int x){
+        if(x == 1){
+            pp.CheckboxOption1.click();
+        } else if(x == 2) {
+            pp.CheckboxOption2.click();
+        } else if(x == 3){
+            pp.CheckboxOption3.click();
+        }
         return this;
     }
+
+//    public PracticePage selectCountries(){
+//        return this;
+//    }
 
 
 }

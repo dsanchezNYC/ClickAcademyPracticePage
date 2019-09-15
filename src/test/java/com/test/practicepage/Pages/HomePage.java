@@ -16,8 +16,12 @@ public class HomePage {
     public SelenideElement practiceLink;
 
     //---Methods
+    public HomePage navigateToHomePage(){
+        open(orgUrl);
+        return this;
+    }
+
     public HomePage navigateToPracticePage(){
-        System.out.println("[INFO]: Navigate to Practice Page.");
         open(orgUrl);
         $(practiceLink).waitUntil(enabled,30000).click();
         return this;

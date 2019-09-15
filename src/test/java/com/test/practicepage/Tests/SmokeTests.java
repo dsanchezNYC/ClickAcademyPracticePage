@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.sleep;
 public class SmokeTests extends BaseTests {
 
     @Test
-    public void test_01_NavigateToProjectPage (){
+    public void test_01_NavigateToProjectPageFromHomePage (){
         System.out.println("[INFO]: 'Navigate To Project Page' test ***START***");
         hp.navigateToPracticePage();
         try{
@@ -26,7 +26,7 @@ public class SmokeTests extends BaseTests {
     }
 
     @Test
-    public void test_02_NavigateToHomePage (){
+    public void test_02_NavigateToHomePageFromProjectPage (){
         System.out.println("[INFO]: 'Navigate To Home Page' test ***START***");
         pp.navigateToHomePage();
         try{
@@ -41,7 +41,7 @@ public class SmokeTests extends BaseTests {
     @Test
     public void test_03_SelectRadioButton1(){
         System.out.println("[INFO]: 'Select Radio button 1' test ***START***");
-        hp.navigateToPracticePage();
+        pp.navigateToProjectPage();
         pp.selectRadioButton(1);
         try{
             $(pp.RadioButton1).shouldBe(Condition.focused);
@@ -55,7 +55,7 @@ public class SmokeTests extends BaseTests {
     @Test
     public void test_04_SelectRadioButton2(){
         System.out.println("[INFO]: 'Select Radio button 2' test ***START***");
-        hp.navigateToPracticePage();
+        pp.navigateToProjectPage();
         pp.selectRadioButton(2);
         try{
             $(pp.RadioButton2).shouldBe(Condition.focused);
@@ -69,7 +69,7 @@ public class SmokeTests extends BaseTests {
     @Test
     public void test_05_SelectRadioButton3(){
         System.out.println("[INFO]: 'Select Radio button 3' test ***START***");
-        hp.navigateToPracticePage();
+        pp.navigateToProjectPage();
         pp.selectRadioButton(3);
         try{
             $(pp.RadioButton3).shouldBe(Condition.focused);
@@ -83,7 +83,7 @@ public class SmokeTests extends BaseTests {
     @Test
     public void test_06_SelectCheckboxOption1(){
         System.out.println("[INFO]: 'Select Checkbox option 1' test ***START***");
-        hp.navigateToPracticePage();
+        pp.navigateToProjectPage();
         pp.selectCheckboxOption(1);
         try{
             $(pp.CheckboxOption1).shouldBe(Condition.focused);
@@ -97,7 +97,7 @@ public class SmokeTests extends BaseTests {
     @Test
     public void test_07_SelectCheckboxOption2(){
         System.out.println("[INFO]: 'Select Checkbox option 2' test ***START***");
-        hp.navigateToPracticePage();
+        pp.navigateToProjectPage();
         pp.selectCheckboxOption(2);
         try{
             $(pp.CheckboxOption2).shouldBe(Condition.focused);
@@ -111,7 +111,7 @@ public class SmokeTests extends BaseTests {
     @Test
     public void test_08_SelectCheckboxOption1(){
         System.out.println("[INFO]: 'Select Checkbox option 3' test ***START***");
-        hp.navigateToPracticePage();
+        pp.navigateToProjectPage();
         pp.selectCheckboxOption(3);
         try{
             $(pp.CheckboxOption3).shouldBe(Condition.focused);
@@ -125,7 +125,7 @@ public class SmokeTests extends BaseTests {
     @Test
     public void test_09_DropdownOption1(){
         System.out.println("[INFO]: 'Select Dropdown option 1' test ***START***");
-        hp.navigateToPracticePage();
+        pp.navigateToProjectPage();
         pp.DropdownExample.selectOptionByValue("option1");
         try{
             $(pp.DropdownExample.shouldHave(value("option1")));
@@ -139,7 +139,7 @@ public class SmokeTests extends BaseTests {
     @Test
     public void test_10_DropdownOption2(){
         System.out.println("[INFO]: 'Select Dropdown option 2' test ***START***");
-        hp.navigateToPracticePage();
+        pp.navigateToProjectPage();
         pp.DropdownExample.selectOptionByValue("option2");
         try{
             $(pp.DropdownExample.shouldHave(value("option2")));
@@ -153,7 +153,7 @@ public class SmokeTests extends BaseTests {
     @Test
     public void test_11_DropdownOption3(){
         System.out.println("[INFO]: 'Select Dropdown option 3' test ***START***");
-        hp.navigateToPracticePage();
+        pp.navigateToProjectPage();
         pp.DropdownExample.selectOptionByValue("option3");
         try{
             $(pp.DropdownExample.shouldHave(value("option3")));
@@ -167,7 +167,7 @@ public class SmokeTests extends BaseTests {
     @Test
     public void test_12_SelectCountries(){
         System.out.println("[INFO]: 'Select United States from Select Countries' test ***START***");
-        hp.navigateToPracticePage();
+        pp.navigateToProjectPage();
         pp.SelectCountries.sendKeys("United States");
         sleep(10000);
         try{
