@@ -5,6 +5,7 @@ import com.test.practicepage.BaseTests.BaseTests;
 import org.junit.jupiter.api.Test;
 import sun.jvm.hotspot.utilities.Assert;
 
+import static com.codeborne.selenide.Condition.name;
 import static com.codeborne.selenide.Condition.value;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.sleep;
@@ -150,6 +151,20 @@ public class SmokeTests extends BaseTests {
         catch(Exception e){
         }
         System.out.println("[INFO]: 'Select Dropdown option 3' test ***PASSED***");
+    }
+
+    @Test
+    public void test_12_SelectCountries(){
+        System.out.println("[INFO]: 'Select United States from Select Countries' test ***START***");
+        hp.navigateToPracticePage();
+        pp.SelectCountries.sendKeys("United States");
+        sleep(10000);
+        try{
+            $(pp.SelectCountries.shouldHave(value("United States")));
+        }
+        catch(Exception e){
+        }
+        System.out.println("[INFO]: 'Select United States from Select Countries' test ***PASSED***");
     }
 
 }
