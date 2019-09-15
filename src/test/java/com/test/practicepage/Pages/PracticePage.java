@@ -94,7 +94,7 @@ public class PracticePage {
     //TBD: Add iFrame locators
 
     //---Methods
-    public PracticePage navigateToProjectPage(){
+    public PracticePage openProjectPage(){
         open(orgUrl);
         return this;
     }

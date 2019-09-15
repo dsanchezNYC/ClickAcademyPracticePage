@@ -16,7 +16,7 @@ public class HomePage {
     public SelenideElement practiceLink;
 
     //---Methods
-    public HomePage navigateToHomePage(){
+    public HomePage openHomePage(){
         open(orgUrl);
         return this;
     }
