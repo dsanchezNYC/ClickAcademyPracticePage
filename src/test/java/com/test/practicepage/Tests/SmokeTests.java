@@ -5,6 +5,7 @@ import com.test.practicepage.BaseTests.BaseTests;
 import org.junit.jupiter.api.Test;
 import sun.jvm.hotspot.utilities.Assert;
 
+import static com.codeborne.selenide.Condition.value;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.sleep;
 
@@ -110,6 +111,48 @@ public class SmokeTests extends BaseTests {
         catch(Exception e){
         }
         System.out.println("[INFO]: 'Select Checkbox option 3' test ***PASSED***");
+    }
+
+    @Test
+    public void test_09_DropdownOption1(){
+        System.out.println("[INFO]: 'Select Dropdown option 1' test ***START***");
+        hp.navigateToPracticePage();
+        pp.DropdownExample.selectOptionByValue("option1");
+        sleep(10000);
+        try{
+            $(pp.DropdownExample.shouldHave(value("option1")));
+        }
+        catch(Exception e){
+        }
+        System.out.println("[INFO]: 'Select Dropdown option 1' test ***PASSED***");
+    }
+
+    @Test
+    public void test_10_DropdownOption2(){
+        System.out.println("[INFO]: 'Select Dropdown option 2' test ***START***");
+        hp.navigateToPracticePage();
+        pp.DropdownExample.selectOptionByValue("option2");
+        sleep(10000);
+        try{
+            $(pp.DropdownExample.shouldHave(value("option2")));
+        }
+        catch(Exception e){
+        }
+        System.out.println("[INFO]: 'Select Dropdown option 2' test ***PASSED***");
+    }
+
+    @Test
+    public void test_11_DropdownOption3(){
+        System.out.println("[INFO]: 'Select Dropdown option 3' test ***START***");
+        hp.navigateToPracticePage();
+        pp.DropdownExample.selectOptionByValue("option3");
+        sleep(10000);
+        try{
+            $(pp.DropdownExample.shouldHave(value("option3")));
+        }
+        catch(Exception e){
+        }
+        System.out.println("[INFO]: 'Select Dropdown option 3' test ***PASSED***");
     }
 
 }
