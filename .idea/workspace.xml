@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ae08a40-db7a-442c-9aeb-167818a3709d" name="Default Changelist" comment="Navigation/class name updates">
+    <list default="true" id="1ae08a40-db7a-442c-9aeb-167818a3709d" name="Default Changelist" comment="Open Window Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/practicepage/BaseTests/BaseTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/test/practicepage/BaseTests/BaseTests.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/practicepage/Pages/HomePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/test/practicepage/Pages/HomePage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/practicepage/Pages/PracticePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/test/practicepage/Pages/PracticePage.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/practicepage/Tests/SmokeTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/test/practicepage/Tests/SmokeTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,7 +58,7 @@
       <file leaf-file-name="BrowsersHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/practicepage/Helpers/BrowsersHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
+            <state relative-caret-position="315">
               <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,15 +67,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/practicepage/BaseTests/BaseTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmokeTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SmokeTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/practicepage/Tests/SmokeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+            <state relative-caret-position="517">
+              <caret line="215" column="0" lean-forward="true" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,8 +187,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/test/practicepage/Helpers/BrowsersHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/test/practicepage/Pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/test/practicepage/Pages/PracticePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/test/practicepage/Tests/SmokeTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/test/practicepage/BaseTests/BaseTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/practicepage/Tests/SmokeTests.java" />
       </list>
     </option>
   </component>
@@ -710,21 +708,19 @@
       <option name="project" value="LOCAL" />
       <updated>1568579094649</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Open Window Test">
+      <created>1568579941393</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1568579941393</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SmokeTests - 2019.09.14 at 21h 02m 00s.xml">
-      <configuration name="SmokeTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SmokeTests - 2019.09.15 at 16h 21m 58s.xml">
       <configuration name="SmokeTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SmokeTests_test_03_SelectRadioButton1 - 2019.09.15 at 16h 20m 06s.xml">
-      <configuration name="SmokeTests.test_03_SelectRadioButton1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SmokeTests_test_12_SelectCountries - 2019.09.14 at 20h 59m 36s.xml">
-      <configuration name="SmokeTests.test_12_SelectCountries" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SmokeTests_test_13_SwitchWindow - 2019.09.15 at 16h 31m 08s.xml">
       <configuration name="SmokeTests.test_13_SwitchWindow" configurationId="JUnit" />
@@ -742,6 +738,15 @@
       <configuration name="SmokeTests.test_13_SwitchWindow" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SmokeTests_test_13_SwitchWindow - 2019.09.15 at 16h 37m 14s.xml">
+      <configuration name="SmokeTests.test_13_SwitchWindow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmokeTests_test_13_SwitchWindow - 2019.09.15 at 16h 42m 55s.xml">
+      <configuration name="SmokeTests.test_13_SwitchWindow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmokeTests_test_13_SwitchWindow - 2019.09.15 at 16h 43m 29s.xml">
+      <configuration name="SmokeTests.test_13_SwitchWindow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmokeTests_test_13_SwitchWindow - 2019.09.15 at 16h 43m 58s.xml">
       <configuration name="SmokeTests.test_13_SwitchWindow" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -796,7 +801,8 @@
     <MESSAGE value="Autosuggest test" />
     <MESSAGE value="Update to run via remote ChromeDriver" />
     <MESSAGE value="Navigation/class name updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navigation/class name updates" />
+    <MESSAGE value="Open Window Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Open Window Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -829,8 +835,8 @@
           <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -935,19 +941,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/practicepage/Tests/SmokeTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/practicepage/Helpers/BrowsersHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
+        <state relative-caret-position="315">
           <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -957,12 +953,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/practicepage/BaseTests/BaseTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/practicepage/Tests/SmokeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="215" column="0" lean-forward="true" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -7,9 +7,7 @@ import sun.jvm.hotspot.utilities.Assert;
 
 import static com.codeborne.selenide.Condition.name;
 import static com.codeborne.selenide.Condition.value;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.sleep;
-import static com.codeborne.selenide.Selenide.switchTo;
+import static com.codeborne.selenide.Selenide.*;
 
 public class SmokeTests extends BaseTests {
 
@@ -192,8 +190,27 @@ public class SmokeTests extends BaseTests {
         catch(Exception e){
             e.printStackTrace();
         }
+        //close();
         System.out.println("[INFO]: 'Switch Window' test ***PASSED***");
     }
+
+
+//    @Test
+//    public void test_14_SwitchTab(){
+//        System.out.println("[INFO]: 'Switch Tab' test ***START***");
+//        pp.openProjectPage();
+//        pp.OpenTabButton.click();
+//        switchTo().window(1);
+//        hp.navigateToPracticePage();
+//        try{
+//            $(pp.PracticePageHeader).should(Condition.exist);
+//        }
+//        catch(Exception e){
+//            e.printStackTrace();
+//        }
+//        System.out.println("[INFO]: 'Switch Tab' test ***PASSED***");
+//    }
+//
 
 
 

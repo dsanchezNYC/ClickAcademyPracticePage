@@ -17,7 +17,7 @@ public class BaseTests {
 
     @BeforeAll
     public static void setup(){
-        setWebDriver(BrowsersHelper.getChromeRemoteWebDriver()); //Local or Remote (BrowserStack)
+        setWebDriver(BrowsersHelper.getChromeLocalWebDriver()); //Local or Remote (BrowserStack)
         initializePages();
     }
 
