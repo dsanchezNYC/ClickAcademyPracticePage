@@ -118,7 +118,6 @@ public class SmokeTests extends BaseTests {
         System.out.println("[INFO]: 'Select Dropdown option 1' test ***START***");
         hp.navigateToPracticePage();
         pp.DropdownExample.selectOptionByValue("option1");
-        sleep(10000);
         try{
             $(pp.DropdownExample.shouldHave(value("option1")));
         }
@@ -132,7 +131,6 @@ public class SmokeTests extends BaseTests {
         System.out.println("[INFO]: 'Select Dropdown option 2' test ***START***");
         hp.navigateToPracticePage();
         pp.DropdownExample.selectOptionByValue("option2");
-        sleep(10000);
         try{
             $(pp.DropdownExample.shouldHave(value("option2")));
         }
@@ -146,7 +144,6 @@ public class SmokeTests extends BaseTests {
         System.out.println("[INFO]: 'Select Dropdown option 3' test ***START***");
         hp.navigateToPracticePage();
         pp.DropdownExample.selectOptionByValue("option3");
-        sleep(10000);
         try{
             $(pp.DropdownExample.shouldHave(value("option3")));
         }
